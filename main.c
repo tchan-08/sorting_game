@@ -78,7 +78,7 @@ int main() {
         printf("You took %.2f seconds to complete\n", timeTaken);
         printf("Each input took an average of %.2f to complete\n", avgTime);
         int canPlay;
-        printf("Continue? (1/0)");
+        printf("Continue? (1/0)"); 
         scanf("%d", &canPlay);
         if (canPlay != 1) {
             play = false;
